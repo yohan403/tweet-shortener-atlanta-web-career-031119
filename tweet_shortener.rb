@@ -22,7 +22,8 @@ def word_substituter(string)
     matchwords.each_with_index do |matchword,index|
       if word == matchword
         puts word
-        # string_array[index] = matchword
+        string_array[index] = matchword
+        puts word
         # break
       end
     end
